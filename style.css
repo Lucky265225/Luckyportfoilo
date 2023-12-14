@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Russo+One&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', sans-serif;
+}
+body{
+    background: #97d2e9;
+    height: 100vh;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(35, 177, 202);
+}
+header .logo{
+    color: rgb(244, 255, 255);
+    font-size: 3em;
+    text-decoration: none;
+    letter-spacing: 8px;
+    text-shadow: 0 4px 10px rgb(0,0,0.1);
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li{
+    list-style: none;
+    margin-left: 10px;
+    padding-left: 40px;
+}
+header ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 5px 15px;
+    border-radius: 30px;
+    font-size: 1.5em;
+}
+header ul li a:hover,
+header ul li a.home
+{
+    background-color: aliceblue;
+    color: black;
+}
+
+#LuckyHome{
+    object-fit: cover;
+    width: 100%;
+    height: 65vh;
+    overflow: hidden;
+    position: fixed;
+    top: 25vh;
+    z-index: -2;
+    opacity: 0.65;
+    box-shadow: 4px 0 20px rgba(0,0,0.1) ;
+}
+
+.mainhome h1{
+    position:fixed;
+    top: 30vh;
+    left: 10vh;
+    font-size: 60px;
+    text-shadow: 0 10px 10px rgba(0,0,0.1);
+    color: aliceblue;
+}
+
+.img-cer .img-item img{
+    width: 400px;
+    height: 280px;
+}
+
+.img-cer {
+    position: relative;
+    justify-content: center;
+    top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    flex-direction: row;
+    z-index: -1;
+    margin: 0;    
+}
+
+.img-item img{
+    display: block;
+    box-sizing: border-box;
+    width: 33.33%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 20px;
+}
+
+.img-cer .img-item h3{
+    text-align: center;
+}
+
+.mainhome a img{
+    width: 50px;
+    height: 50px;
+    padding-right: 1vh;
+}
+
+.mainhome div{
+    position: relative;
+    top: 80vh;
+    left: 10vh;
+    margin: -1vh;
+}
